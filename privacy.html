@@ -34,11 +34,11 @@
            color:var(--muted); font-size:.85rem; }
 </style>
 </head><body><div class="wrap">
-<nav class="top"><a href="https://overload-ai.github.io/pounds-legal/">POUNDS</a><a href="https://overload-ai.github.io/pounds-legal/privacy">Privacy</a><a href="https://overload-ai.github.io/pounds-legal/terms">Terms</a></nav>
+<nav class="top"><a href="https://overload-ai.github.io/pounds-legal/">POUNDS</a><a href="https://overload-ai.github.io/pounds-legal/privacy">Privacy</a><a href="https://overload-ai.github.io/pounds-legal/terms">Terms</a><a href="https://overload-ai.github.io/pounds-legal/support">Support</a></nav>
 <h1>POUNDS PRIVACY POLICY</h1>
-<p><strong>Policy Version 2026.2</strong>
-<strong>Effective Date: 2026-08-31</strong>
-<strong>Last Updated: 2026-08-31</strong></p>
+<p><strong>Policy Version 2026.3</strong>
+<strong>Effective Date: 2026-11-11</strong>
+<strong>Last Updated: 2026-11-11</strong></p>
 <hr>
 <p>This Privacy Policy (&quot;<strong>Policy</strong>&quot;) describes how <strong>Give Me Pounds LLC</strong>, a New York limited liability company (&quot;<strong>Company</strong>,&quot; &quot;<strong>we</strong>,&quot; &quot;<strong>us</strong>,&quot; or &quot;<strong>our</strong>&quot;), collects, uses, discloses, and otherwise processes information in connection with the POUNDS mobile application for iOS and any related services we provide (collectively, the &quot;<strong>App</strong>&quot;).</p>
 <p>This Policy is incorporated by reference into, and forms part of, the POUNDS Terms of Use. Capitalized terms not defined here have the meanings given in the Terms of Use.</p>
@@ -55,7 +55,7 @@
 </thead>
 <tbody><tr>
 <td><strong>What we collect</strong></td>
-<td>Only what you put into the App and what the App needs to function: your workouts, body measurements, progress photos, what you write to the AI coach, your answer to the nightly undertaking, your name and email from Sign in with Apple, and diagnostic data about crashes and app performance.</td>
+<td>Only what you put into the App and what the App needs to function: your workouts, body measurements, progress photos, what you write to the AI coach, your answer to the nightly undertaking, your email address and, if you share it, your name, from however you sign in, diagnostic data about crashes and app performance, and, if you allow notifications, a token that lets us reach your device.</td>
 </tr>
 <tr>
 <td><strong>What we do not collect</strong></td>
@@ -63,7 +63,7 @@
 </tr>
 <tr>
 <td><strong>What we work out about you</strong></td>
-<td>An estimated body-fat <strong>range</strong> from a progress photograph you submit, and notes on muscular development — shown to you under the words <em>&quot;visual estimate from a photo · not a measurement,&quot;</em> because that is what it is. And what the coach remembers about your goals, injuries and habits. None of it sets a price, unlocks a feature, or decides anything about you. See Section 3.7.</td>
+<td>From each progress photograph you upload while the AI features are on: an estimated body-fat <strong>range</strong>, computed from a published equation, and notes on muscular development. The range is an estimate, not a measurement. And what the coach remembers about your goals, injuries and habits. None of it sets a price, unlocks a feature, or decides anything about you. See Section 3.7.</td>
 </tr>
 <tr>
 <td><strong>Tracking</strong></td>
@@ -102,14 +102,17 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <hr>
 <h2>3. INFORMATION WE COLLECT</h2>
 <h3>3.1 Account Information</h3>
-<p>The App uses <strong>Sign in with Apple</strong> as its sole authentication method. There is no password to create, and we never receive your Apple ID credentials.</p>
-<p>When you sign in for the first time, Apple provides us with:</p>
+<p>You can open and reach your account in the ways the App&#39;s sign-in screen offers. Whichever you use, we store an account identifier and your email address in our authentication system, and when your account was created and last signed in.</p>
+<p><strong>Email and password.</strong> You give us your email address and choose a password. Your password travels over an encrypted connection to our authentication provider, Supabase, which keeps only a one-way hash of it, so neither we nor the App can read your password back. The App does not store your password. We record whether and when your address was confirmed. We send email to that address only to confirm it and to reset your password. We do not ask for your name.</p>
+<p><strong>Sign in with Apple.</strong> We never receive your Apple ID credentials. When you sign in for the first time, Apple provides us with:</p>
 <ul>
-<li><strong>A unique account identifier</strong> assigned by Apple, which we use as your account key;</li>
+<li><strong>A unique account identifier</strong> assigned by Apple;</li>
 <li><strong>Your name</strong>, if you elect to share it (Apple provides this on first sign-in only); and</li>
 <li><strong>An email address</strong>, which will be Apple&#39;s private relay address if you elected to hide your address.</li>
 </ul>
-<p>We store your account identifier and email address in our authentication system and your display name in your profile. We do not receive, request, or retain any other information from your Apple account.</p>
+<p>We do not receive, request, or retain any other information from your Apple account.</p>
+<p><strong>Continue with Google.</strong> This option applies only once we have turned it on; until then it does not appear in the App. If you use it, you sign in on Google&#39;s own page, and we never receive your Google password. Google provides us with an identifier for your Google account, your email address, your name, and a link to your Google profile picture, which the App does not display. Your use of Google&#39;s sign-in is also subject to Google&#39;s privacy policy.</p>
+<p>We keep your display name, if a provider gave us one, in your profile.</p>
 <h3>3.2 Information You Provide Through Use of the App</h3>
 <div class="scroll"><table>
 <thead>
@@ -126,8 +129,18 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 </tr>
 <tr>
 <td><strong>Health information</strong></td>
-<td>Body weight; a body-fat percentage you enter; <strong>the method by which you obtained that percentage</strong>, if you record it — DEXA scan, Bod Pod, hydrostatic weighing, bioimpedance scale, handheld bioimpedance, calipers, visual estimate, or other; circumference measurements; the dates on which you recorded them</td>
-<td>To display your trends over time; to keep a laboratory measurement distinguishable from an eyeballed one, so that neither we nor the coach treats them as interchangeable; and, if you enable the AI features, to inform coaching output</td>
+<td>Body weight; a body-fat percentage you enter; <strong>the method by which you obtained that percentage</strong>, if you record it — DEXA scan, Bod Pod, hydrostatic weighing, bioimpedance scale, handheld bioimpedance, calipers, visual estimate, or other; circumference measurements; the dates on which you recorded them; <strong>your sex and your height</strong>, if you give them (both are optional)</td>
+<td>To display your trends over time; to keep a laboratory measurement distinguishable from an eyeballed one, so that neither we nor the coach treats them as interchangeable; to compute the body-fat range described in Section 3.7, which needs your sex and reads your waist against your height; and, if you enable the AI features, to inform coaching output</td>
+</tr>
+<tr>
+<td><strong>Date of birth</strong></td>
+<td>Your date of birth, if you give it. It is optional, and you can change or remove it in Settings at any time</td>
+<td>To tell the coach your age; to let the body-fat equation described in Section 3.7 take your age into account; and, because the App is for adults only (Section 11), to refuse a date that makes you under 18. <strong>The date itself is never sent to an AI provider</strong> (Section 4.2)</td>
+</tr>
+<tr>
+<td><strong>Body proportions measured on your phone</strong></td>
+<td>When you add a progress photograph, the App measures it on your phone with Apple&#39;s Vision framework: the positions of body joints, and the width (or, from the side, the depth) of your outline at the shoulders, chest, waist and hips, and your height, each expressed as a multiple of your torso length, with the ratios between them and how far your body is turned from the camera. <strong>The outline itself never leaves your phone; only these numbers do.</strong> They are stored with the photograph&#39;s record</td>
+<td>To decide on the phone whether a photograph shows a body that can be assessed (if it does not, nothing is sent for analysis), to estimate your waist when you have not taped it, and to track proportions between photographs</td>
 </tr>
 <tr>
 <td><strong>Nightly undertaking</strong></td>
@@ -136,8 +149,8 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 </tr>
 <tr>
 <td><strong>Photographs</strong></td>
-<td>Progress photos you elect to capture or upload, and any pose or note you associate with them. Photographs are resized and compressed on your device before upload</td>
-<td>To display them back to you for side-by-side comparison and, if you request it, to generate a body-composition analysis</td>
+<td>Progress photos you elect to capture or upload, and any pose or note you associate with them. Photographs are resized and compressed on your device before upload. If you switch on &quot;Blur my face&quot; when adding a photograph, the face is blurred on your phone before the upload, and only the blurred photograph is stored; the switch is off unless you turn it on</td>
+<td>To display them back to you for side-by-side comparison and, <strong>while the AI features are on, to generate a body-composition analysis of each photograph automatically when you upload it</strong> (Section 4.2(a))</td>
 </tr>
 <tr>
 <td><strong>Other user content</strong></td>
@@ -146,10 +159,11 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 </tr>
 <tr>
 <td><strong>Preferences</strong></td>
-<td>Weight unit; which notification types are enabled; quiet hours; your daily notification cap; the hour at which you close your kitchen; a protein target, if you set one; training goal text; <strong>your device&#39;s time zone</strong></td>
+<td>Weight unit; which notification types are enabled; quiet hours; your daily notification cap; the hour at which you close your kitchen; a protein target, if you set one; training goal text; <strong>your device&#39;s time zone</strong>; the coach intensity you choose — full, firm or straight — which sets how hard the coach&#39;s replies and notifications push</td>
 <td>To configure the App as you have asked, and to schedule notifications at the correct local time</td>
 </tr>
 </tbody></table></div>
+<p>If you import workout history from a file exported by another app or by POUNDS, we keep the workouts, sets, notes and exercises read from it as fitness information like any you log; the file is read on your phone and is not uploaded.</p>
 <p>You choose what to put into the App. You are not required to record body measurements, record how a body-fat figure was obtained, upload photographs, answer the nightly undertaking, or use the coach in order to log workouts.</p>
 <h3>3.3 Information Collected Automatically</h3>
 <div class="scroll"><table>
@@ -161,6 +175,11 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 </tr>
 </thead>
 <tbody><tr>
+<td><strong>Sign-in session records</strong></td>
+<td>For each session in which you are signed in: the IP address the session was opened or refreshed from, and the user agent your device sent (which names the App or system component and its version). Our hosting provider&#39;s request logs also record the IP address of requests to our servers</td>
+<td>To authenticate you, to keep your session valid, and to detect and investigate abuse of the service. A session record is deleted when you sign out of that session or delete your account; request logs are kept by our hosting provider for the limited period its service retains them. We do not use an IP address to locate you</td>
+</tr>
+<tr>
 <td><strong>Crash and performance diagnostics</strong></td>
 <td>Diagnostic reports generated by Apple&#39;s MetricKit framework when the App crashes, hangs, or encounters a CPU or disk exception, together with the App version, the operating-system version, and the device model class (for example, &quot;iPhone14,2&quot;). The device model class is not a unique device identifier.</td>
 <td>To identify and fix defects</td>
@@ -175,6 +194,11 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <td>The unique identifier assigned to your account. It is recorded on every row of data associated with you, forms the path prefix under which your photographs are stored, and — if you purchase a subscription — is passed to Apple with the transaction so that Apple&#39;s subscription notifications can be matched back to your account</td>
 <td>To attribute your data to you, to enforce database-level access controls, and to determine your subscription entitlement (see Section 7)</td>
 </tr>
+<tr>
+<td><strong>Push notification token</strong></td>
+<td>If you allow notifications: the token Apple issues for your device, whether it is a development or a production token, the App&#39;s identifier, and the sign-in session it was registered under</td>
+<td>To deliver the coach&#39;s notifications to your device, including on a day you do not open the App</td>
+</tr>
 </tbody></table></div>
 <h3>3.4 Voice Dictation</h3>
 <p>The App offers voice dictation for coach messages and set notes. Dictation uses Apple&#39;s Speech framework. Where your device supports on-device speech recognition, your audio is processed on the device and is not transmitted. Where your device does not support on-device recognition, Apple&#39;s speech recognition service processes the audio and returns text, subject to Apple&#39;s own privacy terms.</p>
@@ -188,9 +212,8 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <li><strong>Advertising identifiers.</strong> There is no IDFA collection and no App Tracking Transparency prompt, because there is nothing to prompt about.</li>
 <li><strong>Third-party analytics.</strong> There is no Firebase, Amplitude, Mixpanel, Segment, PostHog, or comparable analytics software development kit in the App.</li>
 <li><strong>Advertising software.</strong> There is no ad network software development kit in the App.</li>
-<li><strong>Push notification tokens.</strong> The App does not register for remote notifications and does not hold a push token. See Section 8.</li>
 <li><strong>Payment card information.</strong> All purchases are processed by Apple. We never receive your card number, and we do not receive your billing address. See Section 7.</li>
-<li><strong>Biometric identifiers.</strong> We state this expressly because the App handles photographs of your body, and a reader is entitled to ask. <strong>We do not extract, generate, store, or use any biometric identifier from your photographs.</strong> There is no facial recognition, no face or hand geometry, no faceprint, no iris or fingerprint processing, and no voiceprint in the App or on our servers. The photo-analysis feature asks for, and receives, exactly six things: a development level and a short observation for each of five upper-body regions; an estimated body-fat percentage; a confidence rating for that estimate; a short composition label; optional notes on posture and left-right symmetry; and a summary paragraph. Nothing in that output identifies a person, and none of it is used for identification, matching, or verification. See Section 3.7.</li>
+<li><strong>Biometric identifiers.</strong> We state this expressly because the App handles photographs of your body, and a reader is entitled to ask. <strong>We do not extract, generate, store, or use any biometric identifier from your photographs.</strong> There is no facial recognition, no face or hand geometry, no faceprint, no iris or fingerprint processing, and no voiceprint in the App or on our servers. The body proportions the App measures on your phone (Section 3.2) are positions and widths expressed as multiples of your own torso length, used to describe your build; they are not a template of you and are not used to recognize anyone. The photo-analysis model is asked for a development level and a short observation for each upper-body region it can see, a short composition label, optional notes on posture, left-right symmetry and the quality of the photograph, a description of visible changes since an earlier photograph of the same pose, a summary paragraph, and, where we have computed a body-fat range, a sentence on where in that range the photograph plausibly sits. The model does not produce the body-fat figure; we compute it (Section 3.7). Nothing in that output identifies a person, and none of it is used for identification, matching, or verification. See Section 3.7.</li>
 </ul>
 <h3>3.6 Sensitive Personal Information</h3>
 <p>Certain information described above is treated as sensitive under one or more United States privacy laws, including body measurements, body-composition estimates, progress photographs, and any statement you make to the coach concerning an injury, a physical limitation, or a symptom.</p>
@@ -209,16 +232,28 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 </tr>
 </thead>
 <tbody><tr>
-<td><strong>An estimated body-fat percentage, and a range around it</strong></td>
-<td>A progress photograph you submit for analysis</td>
-<td>On that photograph&#39;s record, and in the coach&#39;s long-term memory</td>
+<td><strong>An estimated body-fat range, and the figure at its centre</strong></td>
+<td>Computed by us, not by an AI model, with a published equation (Relative Fat Mass) from your sex, your height, and your waist: a waist you taped within two weeks of the photograph if there is one, otherwise the waist measured from the photographs on your phone (Section 3.2); your weight, if a weigh-in is on file; and, if you gave your date of birth and were between 18 and 59 on the day of the photograph, your age on that day. Without your sex no range is computed</td>
+<td>On that photograph&#39;s record, and in the coach&#39;s long-term memory. The record notes that your age was used, never the age itself</td>
 <td>Shown to you; available to the coach in conversation</td>
 </tr>
 <tr>
-<td><strong>A composition label; a development level and a one-or-two-sentence observation for each of five upper-body regions; optional notes on posture and on left-right symmetry; a summary paragraph</strong></td>
-<td>The same photograph</td>
+<td><strong>Your age, in whole years</strong></td>
+<td>Your date of birth, counted against today&#39;s date where you are</td>
+<td>Nowhere: it is worked out afresh each time it is needed, and never stored</td>
+<td>Given to the coach with each message, so that it can take your age into account; read by the body-fat equation, as above</td>
+</tr>
+<tr>
+<td><strong>A composition label; a development level and a one-or-two-sentence observation for each of five upper-body regions; optional notes on posture, left-right symmetry, the photograph&#39;s quality, and changes since an earlier photograph of the same pose; a summary paragraph; a sentence on where in the computed range the photograph plausibly sits</strong></td>
+<td>The same photograph, analysed by Anthropic&#39;s model (Section 4.2(a))</td>
 <td>The same two places</td>
 <td>The same two purposes</td>
+</tr>
+<tr>
+<td><strong>Body proportions</strong> — the ratios between the widths the App measured on your phone</td>
+<td>The phone&#39;s measurements of the same photograph (Section 3.2)</td>
+<td>On that photograph&#39;s record, and in the coach&#39;s long-term memory</td>
+<td>Shown to you; lets the coach compare photographs</td>
 </tr>
 <tr>
 <td><strong>Coach memories</strong> — goals, injuries, training preferences, personal records, and durable observations about your habits, your motivations, and what you tend to do</td>
@@ -229,8 +264,8 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 </tbody></table></div>
 <p>Four things about the body-fat figure, stated plainly, because a number invites more confidence than this one deserves:</p>
 <ol>
-<li><strong>It is a model&#39;s estimate from a photograph. It is not a measurement and it is not a medical assessment.</strong> The App shows it as a <strong>range</strong>, never as a single figure to a decimal place, under the caption <em>&quot;visual estimate from a photo · not a measurement.&quot;</em></li>
-<li><strong>The width of that range comes from the published error of photo-based body-composition estimation in general — not from any measurement of this App&#39;s own accuracy, which has never been taken.</strong> It should be read as a floor on the uncertainty, not a guarantee.</li>
+<li><strong>It is a range from a published equation, not a measurement, and not a medical assessment.</strong> The App shows it as a <strong>range</strong>, never as a single figure to a decimal place, and says beside it that it is an estimate.</li>
+<li><strong>We have never measured this App&#39;s own accuracy.</strong> The width of the range combines the equation&#39;s published error against laboratory scans, which was established with a waist measured by tape, and an allowance for error in your waist. When your waist is measured from a photograph, that allowance is borrowed from published studies of other photo-measurement methods, because nobody has measured how far this App&#39;s photo waist can be off. The range should be read as a floor on the uncertainty, not a guarantee.</li>
 <li><strong>The range, with the same caveat attached to it, is what is written into the coach&#39;s memory</strong> — so that the coach cannot later quote you a precision the method never had.</li>
 <li><strong>It changes nothing about how you are treated.</strong> It sets no price, unlocks and withholds no feature, and feeds no decision about you. It is displayed to you and it informs what the coach says.</li>
 </ol>
@@ -244,7 +279,7 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <ol>
 <li><strong>The coach</strong> — the conversational training assistant;</li>
 <li><strong>Coach memory</strong> — the retention and retrieval of context across conversations;</li>
-<li><strong>Progress-photo analysis</strong> — the body-composition assessment generated from a photograph you submit;</li>
+<li><strong>Progress-photo analysis</strong> — the body-composition assessment generated from each photograph you upload while the AI features are on;</li>
 <li><strong>AI-generated programs</strong> — training programs drafted or modified by the coach; and</li>
 <li><strong>Coach-written notifications</strong> — the daily notification copy.</li>
 </ol>
@@ -253,8 +288,9 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <p><strong>(a) Anthropic PBC (&quot;Anthropic&quot;)</strong> operates the models that generate the coach&#39;s replies, the progress-photo analysis, and the notification copy. Anthropic receives:</p>
 <ul>
 <li>the text of the messages you send to the coach, and the coach&#39;s replies, including where they are re-submitted so that the coach can extract memories from a conversation or give a thread a title;</li>
-<li>a contextual summary compiled from your account — your display name, your stated training goal, your unit preference, and the coach&#39;s stored memories about you, which may include goals, injuries, preferences, personal records, and observations about your habits — which accompanies each coach request;</li>
-<li><strong>the image data of a progress photograph</strong>, when and only when you request an analysis of that photograph. <strong>If you have previously had a photograph of the same pose analysed, the most recent such photograph is sent with it</strong>, so that the model can describe what has changed between the two. That earlier image is therefore transmitted again, on each later analysis of the same pose. A photograph you have never submitted for analysis is never sent;</li>
+<li>a contextual summary compiled from your account — your display name, your stated training goal, your unit preference, <strong>your age in whole years, if you gave your date of birth</strong> (the date itself is not sent), and the coach&#39;s stored memories about you, which may include goals, injuries, preferences, personal records, and observations about your habits — which accompanies each coach request;</li>
+<li>the instructions for the coach intensity you chose (Section 3.2), which set the tone of the coach&#39;s replies. The setting is not sent as a value of its own; it decides which instructions the model is given;</li>
+<li><strong>the image data of each progress photograph you upload while the AI features are on.</strong> The analysis is not a separate step you ask for: <strong>when you add a progress photograph and your consent under Section 4.5 is on file, the App sends it for analysis automatically, as soon as the upload completes.</strong> A stored photograph is also sent when you ask for its analysis (ANALYZE NOW or REANALYZE on that photograph), and when you save your sex, height or date of birth from that photograph&#39;s analysis panel, which runs its analysis again. Sent with the image are the body proportions the App measured on your phone (Section 3.2) and the body-fat range we computed (Section 3.7), expressed as your waist-to-height ratio, the range, whether your waist was taped or measured from the photograph, the date of the weigh-in whose weight was used, if one was, and whether your age was used. Your sex, height, weight, date of birth and age themselves are not sent; they are used on our server to compute the range. <strong>If a photograph of the same pose has been analysed before, the most recent such photograph is sent with it</strong>, so that the model can describe what has changed between the two. That earlier image is therefore transmitted again, on each later analysis of the same pose. <strong>Two exceptions:</strong> if the App&#39;s check on your phone finds no body it can assess in the photograph, nothing is sent and the photograph is stored unanalysed; and while your consent is not on file (you declined it, withdrew it, or have not yet agreed to the current version of this Policy), or while your account is not entitled to the paid AI Features, our server refuses the analysis before it downloads the photograph, and nothing is sent. <strong>To keep progress photographs without sending them to Anthropic, turn the AI features off in Settings (Section 4.6) before you add them.</strong> There is no setting that keeps the coach on while leaving photographs unanalysed. If you switched on &quot;Blur my face&quot; (Section 3.2), the blurred photograph is the one sent;</li>
 <li>your training data — recent workouts, personal records, your active program, and volume trends — when the coach retrieves it in order to answer a question you have asked; and</li>
 <li>your display name, which appears in the instructions given to the model so that the coach can address you.</li>
 </ul>
@@ -262,7 +298,7 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <ul>
 <li><strong>the verbatim text of each message you send to the coach.</strong> This occurs on <strong>every</strong> coach message. The message is converted into a mathematical representation used to rank which of the coach&#39;s stored memories are most relevant to what you are discussing. The resulting representation is not used to compose the coach&#39;s reply;</li>
 <li>the text of the coach&#39;s memories about you, including memories categorized as injuries, goals, and preferences; and</li>
-<li><strong>the narrative text describing your body composition that is derived from a progress photograph.</strong></li>
+<li><strong>the narrative text describing your body composition that is derived from a progress photograph</strong>, which includes the body-fat range, your waist-to-height ratio, and the body proportions the App measured on your phone.</li>
 </ul>
 <blockquote>
 <p><strong>The image data of your progress photographs is not transmitted to OpenAI.</strong> A written description of your body composition, generated from that image, is.</p>
@@ -273,6 +309,7 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <li>your current training streak, and how long it has been since your last weigh-in;</li>
 <li>a summary of your recent workouts;</li>
 <li>your protein target, if you have set one;</li>
+<li>the instructions for the coach intensity you chose (Section 3.2), which set the tone of the notification; your age and your date of birth are not sent on this path;</li>
 <li><strong>up to eight of the coach&#39;s stored memories about you, drawn from the body, goal, preference, and note categories</strong> — which can include the body-composition description derived from a progress photograph; and</li>
 <li>which kinds of notification are to be written — for example, that a late-night-eating message or a missed-undertaking message is due. <strong>The underlying records are not sent.</strong> Your individual nightly-undertaking answers stay on our servers; only the resulting instruction to write that kind of message crosses.</li>
 </ul>
@@ -288,7 +325,7 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <p>Each provider&#39;s own privacy practices are described in its published privacy policy. We encourage you to read them.</p>
 <p><strong>Automated abuse detection at the providers.</strong> Both providers operate automated systems that inspect the content sent to them in order to detect misuse of their services. <strong>These systems are the providers&#39; own. We do not operate them, cannot switch them off, cannot see their output, and are not told when they act.</strong></p>
 <p>We are telling you this here, rather than burying it, because of what the App sends. A progress photograph is frequently a photograph of a bare torso. <strong>Neither provider publishes the categories its automated systems detect</strong>, so we cannot tell you what those systems look for. Our own assessment is that such a photograph is more likely than ordinary text to attract an automated classifier&#39;s attention, and that a classifier can be wrong. The consequences of it being wrong are described in Section 9.4.</p>
-<p><strong>If you would rather not accept that risk, do not use progress-photo analysis.</strong> Photographs you store in the App but never submit for analysis are never sent to any AI provider. Every other feature of the App, including the coach, works without it.</p>
+<p><strong>If you would rather not accept that risk, do not add progress photographs while the AI features are on.</strong> While they are on, every photograph you add is sent to Anthropic for analysis automatically (Section 4.2(a)). Photographs you add while the AI features are off are never sent to any AI provider, and &quot;Blur my face&quot; (Section 3.2) keeps your face out of any photograph you do send.</p>
 <h3>4.5 Consent Is Required, and Is Enforced by Our Systems</h3>
 <p><strong>No content is transmitted to Anthropic or to OpenAI unless you have affirmatively consented to this Policy.</strong> This is not a policy commitment alone; it is enforced by our backend. Every service function capable of transmitting your content to a third party checks your consent record before performing any work, and refuses the request outright if a current, unrevoked consent is not on file. A failure to verify your consent is treated as an absence of consent.</p>
 <p>Your consent is recorded in an append-only ledger, together with the version of this Policy you agreed to and the point in the App at which you agreed. The record is written by our server, not by the App on your device, and it identifies you and the policy version from verified server-side values rather than from anything the App asserts.</p>
@@ -307,7 +344,7 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <p>We use the information described in Section 3 for the following purposes, and for no others:</p>
 <ol>
 <li><strong>To provide the App</strong> — to store, retrieve, and display your training data, programs, measurements, and photographs, and to synchronize them across your devices;</li>
-<li><strong>To operate the AI Features</strong> you have consented to and, where applicable, subscribed to — including to derive from a photograph you submit the body-composition estimate described in Section 3.7, and to allow the coach to retain context about you between conversations;</li>
+<li><strong>To operate the AI Features</strong> you have consented to and, where applicable, subscribed to — including to derive from each photograph you upload while they are on the body-composition estimate described in Section 3.7, and to allow the coach to retain context about you between conversations;</li>
 <li><strong>To maintain and secure the App</strong> — to authenticate you, to enforce per-account data isolation, to detect and prevent fraud and abuse, and to protect the rights and safety of our users and of us;</li>
 <li><strong>To diagnose and fix defects</strong>, using crash and performance diagnostics;</li>
 <li><strong>To administer subscriptions</strong>, including determining whether your account is entitled to the paid tier;</li>
@@ -345,11 +382,11 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 </tr>
 <tr>
 <td><strong>Apple Inc.</strong></td>
-<td>App distribution, Sign in with Apple authentication, in-app purchase processing, and speech recognition where on-device recognition is unavailable</td>
-<td>As described in Sections 3.1, 3.4, and 7. If you purchase a subscription, Apple additionally receives your account identifier with the transaction, so that Apple&#39;s subscription notifications can be matched back to your account</td>
+<td>App distribution, Sign in with Apple authentication, in-app purchase processing, speech recognition where on-device recognition is unavailable, and delivery of push notifications</td>
+<td>As described in Sections 3.1, 3.4, 7, and 8. If you purchase a subscription, Apple additionally receives your account identifier with the transaction, so that Apple&#39;s subscription notifications can be matched back to your account</td>
 </tr>
 </tbody></table></div>
-<p>Notifications are scheduled and delivered on your device by iOS and involve no transmission of your data to Apple. See Section 8.</p>
+<p>If your device is registered for push notifications, your device&#39;s token and each notification&#39;s title, body and kind pass through the Apple Push Notification service, which is how they reach your device. See Section 8.</p>
 <p><strong>(b) Legal and safety disclosures.</strong> We may disclose information where we believe in good faith that disclosure is required by law, regulation, legal process, or governmental request; or is necessary to enforce our Terms of Use, to investigate suspected fraud or abuse, or to protect against imminent harm to the rights, property, or safety of any person.</p>
 <p><strong>(c) Corporate transactions.</strong> If we are involved in a merger, acquisition, financing, reorganization, or sale of all or part of our assets, information may be transferred as part of that transaction. We will provide notice, and the recipient will remain bound by this Policy unless and until you are given notice of and an opportunity to respond to a materially different policy.</p>
 <p><strong>(d) With your direction.</strong> We disclose information to third parties where you direct us to do so.</p>
@@ -363,8 +400,12 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <p>Refunds are administered by Apple in accordance with Apple&#39;s policies. See Section 8 of the Terms of Use.</p>
 <hr>
 <h2>8. NOTIFICATIONS</h2>
-<p>If you enable notifications, notification copy is generated on our servers using the AI provider described in Section 4.2(a), returned to your device, and then <strong>scheduled and delivered locally by iOS</strong>. The App does not register for remote push notifications and does not possess a push token, and we cannot send you a message that your device did not already schedule.</p>
+<p>If you enable notifications, notification copy is generated on our servers using the AI provider described in Section 4.2(a). It reaches your device in one of two ways.</p>
+<p><strong>By push.</strong> If you allow notifications, the App registers with the Apple Push Notification service and sends us the token Apple issues for your device. We write each day&#39;s notifications on a schedule, whether or not you open the App, and send each one at its time through Apple. To deliver it, Apple receives your device&#39;s token and the notification&#39;s title, body and kind. Before sending, we check whether the notification still holds, and withdraw it if it does not: for example, because you have already trained, because you have reported an injury, because you changed your preferences or withdrew consent, or because a required subscription has ended.</p>
+<p><strong>On your device.</strong> If we hold no token for your device, the App receives the day&#39;s copy when you open it, and iOS schedules and delivers it locally. Those notifications involve no transmission of your data to Apple.</p>
+<p>We delete a device&#39;s token within minutes of your signing out on that device, and also when you turn off notifications for the App in iOS Settings and next open it, when Apple tells us the token is no longer valid, and when you delete your account.</p>
 <p>You control notification types, quiet hours, and daily limits in Settings, and you may disable notifications entirely in Settings or in iOS Settings.</p>
+<p>While a workout is open, the App shows it as a Live Activity on your Lock Screen and in the Dynamic Island: the workout&#39;s name, the exercise in hand, how many sets are done, your last set&#39;s weight and reps, the elapsed time and any rest countdown. It is drawn by your device from what the App holds on it; nothing is sent to us or to anyone else to produce it, and no push token is requested. Anyone who can see your Lock Screen can see it. You can turn Live Activities off for POUNDS in iOS Settings, and the App works the same without them.</p>
 <hr>
 <h2>9. DATA STORAGE, SECURITY, AND RETENTION</h2>
 <h3>9.1 Where Your Data Is Stored</h3>
@@ -384,6 +425,14 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <tbody><tr>
 <td>Account and content data (workouts, programs, measurements, photographs, coach conversations, memories, coach action logs, nightly undertakings, notification preferences)</td>
 <td>Retained until you delete it or delete your account</td>
+</tr>
+<tr>
+<td>Notification copy, and the record of which days have notifications</td>
+<td>Deleted on a rolling basis, about 30 days after it is written</td>
+</tr>
+<tr>
+<td>Push notification token</td>
+<td>Until you sign out, turn off notifications, or delete your account, or until Apple tells us it is no longer valid (see Section 8)</td>
 </tr>
 <tr>
 <td>Crash and performance diagnostics</td>
@@ -434,7 +483,7 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 </tr>
 </tbody></table></div>
 <p><strong>(e) Deletion does not reach back.</strong> Deleting your account under Section 10.2 removes your data from our systems. It does not, and cannot, retrieve or delete content already transmitted to a provider, or content a provider has retained under paragraph (b). Once your account is deleted we transmit nothing further concerning you.</p>
-<p><strong>(f) If this is not acceptable to you, you have a real alternative.</strong> Decline or withdraw consent under Section 4.6, or simply never submit a photograph for analysis. Photographs you store in the App and do not submit for analysis are never transmitted to any AI provider, and the manual training tracker is unaffected.</p>
+<p><strong>(f) If this is not acceptable to you, you have a real alternative.</strong> Decline or withdraw consent under Section 4.6, or do not add progress photographs while the AI features are on. Photographs you add while the AI features are off are never transmitted to any AI provider, and the manual training tracker is unaffected. If you turn the AI features on later, photographs already stored are not sent unless you ask for an analysis of one of them.</p>
 <hr>
 <h2>10. GETTING A COPY OF YOUR DATA, AND DELETING YOUR ACCOUNT</h2>
 <p>Both of these are self-service. Neither requires an email to us, a support ticket, or a waiting period, and we do not charge for either.</p>
@@ -458,8 +507,9 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <hr>
 <h2>11. CHILDREN</h2>
 <p><strong>The App is intended solely for adults 18 years of age and older.</strong> By using the App you represent that you are at least 18, as the Terms of Use require. <strong>We do not knowingly collect personal information from anyone under 18</strong>, and we do not direct the App to children.</p>
-<p><strong>We do not verify age, and we say so rather than imply otherwise.</strong> The App has no date-of-birth field and no age gate; the 18-year threshold rests on your representation in the Terms of Use and on the age rating under which the App is listed on the App Store. We do not collect a birth date, because collecting one to police a rule we do not otherwise enforce would mean holding more personal information about every adult user in exchange for no real protection.</p>
-<p><strong>What we do instead.</strong> If we learn that a user is under 18, we will delete the account and its contents promptly, and the account holder need not ask us twice. Anyone may also delete an account outright from within the App at any time (Section 10.2), without contacting us. If you are a parent or guardian and you believe a person under 18 has provided us with personal information, contact <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a></strong> and we will act on it.</p>
+<p><strong>We do not verify age, and we say so rather than imply otherwise.</strong> The 18-year threshold rests on your representation in the Terms of Use and on the age rating under which the App is listed on the App Store. The App lets you give your date of birth, but it is optional, and nothing checks that a date you give is true.</p>
+<p><strong>What a date of birth does here.</strong> If you give a date that makes you under 18, the App does not save it: it tells you that the App is for adults only, and offers you the choice of correcting the date or deleting the account then and there. Our database refuses such a date as well. We do not ask for a date of birth to police the rule, and we would not hold one from every adult in exchange for no real protection; the field exists for the coach and the body-fat figure (Section 3.2), and refusing an under-age date is what we do with what you tell us.</p>
+<p><strong>What we do otherwise.</strong> If we learn that a user is under 18, we will delete the account and its contents promptly, and the account holder need not ask us twice. Anyone may also delete an account outright from within the App at any time (Section 10.2), without contacting us. If you are a parent or guardian and you believe a person under 18 has provided us with personal information, contact <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a></strong> and we will act on it.</p>
 <p><strong>We have never sold or shared the personal information of a consumer under 16 years of age</strong>, within the meaning of the California Consumer Privacy Act, because we do not sell or share anyone&#39;s personal information at all (Section 12.3). We likewise do not process the personal data of a known child for targeted advertising or sale, and we do not profile minors, under any state statute that addresses those practices.</p>
 <hr>
 <h2>12. YOUR PRIVACY RIGHTS — CALIFORNIA</h2>
@@ -480,10 +530,10 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <tbody><tr>
 <td><strong>Identifiers</strong></td>
 <td>Yes</td>
-<td>Account identifier; email address; name</td>
+<td>Account identifier; email address; name; push notification token, if you allow notifications</td>
 <td>You; Apple</td>
-<td>Account creation, authentication, service delivery</td>
-<td>Supabase; Anthropic (display name only); Apple (account identifier only, and only if you subscribe)</td>
+<td>Account creation, authentication, service delivery, delivering notifications</td>
+<td>Supabase; Anthropic (display name only); Apple (account identifier, only if you subscribe; push notification token, to deliver notifications)</td>
 </tr>
 <tr>
 <td><strong>Customer records</strong> (Cal. Civ. Code § 1798.80(e))</td>
@@ -520,9 +570,9 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <tr>
 <td><strong>Internet or other electronic network activity information</strong></td>
 <td>Yes</td>
-<td>AI usage telemetry (model, token counts, cost, timestamp); crash and performance diagnostics</td>
+<td>IP address and user agent recorded with each sign-in session, and IP addresses in our hosting provider&#39;s request logs (Section 3.3); AI usage telemetry (model, token counts, cost, timestamp); crash and performance diagnostics</td>
 <td>Automatic</td>
-<td>Service operation; defect diagnosis; cost control</td>
+<td>Authentication and security; service operation; defect diagnosis; cost control</td>
 <td>Supabase</td>
 </tr>
 <tr>
@@ -538,7 +588,7 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <td>Yes</td>
 <td>Progress photographs</td>
 <td>You</td>
-<td>Display; body-composition analysis, on request</td>
+<td>Display; body-composition analysis, automatically on upload while the AI features are on (Section 4.2(a))</td>
 <td>Supabase; Anthropic</td>
 </tr>
 <tr>
@@ -560,15 +610,15 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <tr>
 <td><strong>Inferences drawn to create a profile</strong></td>
 <td><strong>Yes</strong></td>
-<td>The estimated body-fat range, composition label, and per-region observations derived from a progress photograph; coach memories, including durable observations about your training habits, motivations, and tendencies. Fully described in Section 3.7</td>
+<td>The estimated body-fat range, body proportions, composition label, and per-region observations derived from a progress photograph; coach memories, including durable observations about your training habits, motivations, and tendencies. Fully described in Section 3.7</td>
 <td>Derived by us from what you provide</td>
-<td>To operate the coach and the photo-analysis feature you requested, and to display the result to you. <strong>Not</strong> used for advertising, pricing, eligibility, or any decision producing a legal or similarly significant effect</td>
+<td>To operate the coach and the photo analysis that runs on photographs you upload while the AI features are on, and to display the result to you. <strong>Not</strong> used for advertising, pricing, eligibility, or any decision producing a legal or similarly significant effect</td>
 <td>Supabase; Anthropic; OpenAI</td>
 </tr>
 <tr>
 <td><strong>Sensitive personal information</strong></td>
 <td>Yes</td>
-<td>Health information: body measurements, the method by which you obtained a body-fat figure, and body-composition estimates derived from photographs; injuries, symptoms, and limitations you disclose to the coach; your nightly-undertaking answers; progress photographs</td>
+<td>Health information: body measurements, your sex and height, the body proportions measured from your photographs on your phone, the method by which you obtained a body-fat figure, and body-composition estimates derived from photographs; injuries, symptoms, and limitations you disclose to the coach; your nightly-undertaking answers; progress photographs</td>
 <td>You; derived by us</td>
 <td>Service delivery only</td>
 <td>Supabase; Anthropic; OpenAI</td>
@@ -638,8 +688,9 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <h3>14.1 What Consumer Health Data We Collect</h3>
 <p>We collect the following categories of data that may constitute consumer health data:</p>
 <ul>
-<li><strong>Bodily functions, vital signs, and measurements</strong> — body weight, a body-fat percentage you enter, the method by which you obtained it, and circumference measurements you enter;</li>
-<li><strong>Body-composition information derived from photographs</strong> — the estimated body-fat range, composition label, per-region observations, and narrative assessment generated from a progress photograph you submit for analysis. <strong>This is data we derive, not data you supply</strong>, and it is consumer health data in our hands from the moment it exists (see Section 3.7);</li>
+<li><strong>Bodily functions, vital signs, and measurements</strong> — body weight, a body-fat percentage you enter, the method by which you obtained it, circumference measurements you enter, and your sex and height, if you give them;</li>
+<li><strong>Body proportions measured from photographs</strong> — the joint positions, outline widths, stature and ratios the App measures on your phone from each progress photograph (Section 3.2);</li>
+<li><strong>Body-composition information derived from photographs</strong> — the estimated body-fat range, composition label, per-region observations, and narrative assessment generated from each progress photograph you upload while the AI features are on. <strong>This is data we derive, not data you supply</strong>, and it is consumer health data in our hands from the moment it exists (see Section 3.7);</li>
 <li><strong>Photographs of your body</strong> — progress photographs you capture or upload;</li>
 <li><strong>Information regarding injuries, symptoms, and physical limitations</strong> — as and only as you disclose them in the coach; and</li>
 <li><strong>Information relating to eating behaviour</strong> — your answer to the nightly late-night-eating undertaking, which is recorded as one of two values, <em>signed</em> or <em>declared</em>, at most once per local day. We record that you answered and which answer you gave. There is no field in the App, and no column in the table, for what you ate, how much, when, or in what circumstances.</li>
@@ -653,10 +704,10 @@ Email: <strong><a href="mailto:legal@givemepounds.com">legal@givemepounds.com</a
 <p>We share consumer health data only with the service providers and processors identified in Section 6(a), acting on our behalf under contract, and only to the extent described in Section 4.2. Specifically:</p>
 <ul>
 <li><strong>Supabase, Inc.</strong> — as our hosting and storage provider, for all such data;</li>
-<li><strong>Anthropic PBC</strong> — for coach messages, the contextual summary, progress-photo images submitted for analysis (including a previously analysed image of the same pose, for comparison), and the memory extracts used to write notifications; and</li>
-<li><strong>OpenAI, L.P.</strong> — for coach message text, coach memories, and the photo-derived body-composition narrative. <strong>Image data is never disclosed to OpenAI.</strong></li>
+<li><strong>Anthropic PBC</strong> — for coach messages, the contextual summary, progress-photo images uploaded while the AI features are on (including a previously analysed image of the same pose, for comparison) with the body proportions measured from them and the computed body-fat range, and the memory extracts used to write notifications; and</li>
+<li><strong>OpenAI, L.P.</strong> — for coach message text, coach memories, and the photo-derived body-composition narrative, which carries the body-fat range and the measured proportions. <strong>Image data is never disclosed to OpenAI.</strong></li>
 </ul>
-<p><strong>How long they may keep it is addressed separately, and honestly, in Section 9.4</strong> — including the automated-abuse-detection exception under which a provider may retain flagged content for up to two years. We consider that exception material to any decision to submit a photograph of your body, and we have not buried it.</p>
+<p><strong>How long they may keep it is addressed separately, and honestly, in Section 9.4</strong> — including the automated-abuse-detection exception under which a provider may retain flagged content for up to two years. We consider that exception material to any decision to add a photograph of your body while the AI features are on, and we have not buried it.</p>
 <p><strong>We do not sell consumer health data, and we will not sell it.</strong> We have never offered consumer health data for sale, and we do not collect the valid authorization that MHMDA § 9 would require for a sale, because there is no sale to authorize.</p>
 <h3>14.5 Consent</h3>
 <p>We obtain your affirmative, opt-in consent — separate from and additional to your acceptance of the Terms of Use — before collecting or sharing consumer health data beyond what is necessary to provide a product or service you have requested. That consent is obtained through the mechanism described in Section 4.5, is specific to the purposes described in this Section, and is not bundled with any other authorization.</p>
